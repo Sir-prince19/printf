@@ -58,9 +58,11 @@ i++;
  */
 int fill_nonprint_buffer(int length, char *buff, char *str)
 {
-int i, j;
+int i;
+int j;
 char *hex_val;
-i = 0, j = 0;
+i = 0;
+j = 0;
 while (i < length)
 {
 if (!is_printable(str[j]) && str[j] > 0)
