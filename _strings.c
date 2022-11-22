@@ -72,7 +72,7 @@ if (!hex_val)
 return (0);
 buff[i++] = '\\';
 buff[i++] = 'x';
-string_upper(hex_val);
+_string_upper(hex_val);
 if (hex_val[1])
 {
 buff[i++] = hex_val[0];
